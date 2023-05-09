@@ -10,6 +10,7 @@ app.use("/static", express.static(__dirname+"/public"))
 
 app.use("/api/products", routesProducts)
 app.use("/api/cart", routesCart)
-app.listen(PORT, ()=> {
-    console.log("Server run on port 8080", PORT)
+
+app.listen(8080, ()=> {
+    console.log("Server run on port 8080",)
 })
